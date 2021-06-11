@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/headset"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@android:drawable/stat_sys_headset"
+        android:title="Headset"
+    />
+
+<item android:id="@+id/rewind"
+    android:orderInCategory="100"
+    app:showAsAction="always"
+    android:icon="@android:drawable/arrow_up_float"
+    android:title="click"/>
+
+    <item android:id="@+id/test"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_delete"
+        android:title="test"/>
+</menu>
